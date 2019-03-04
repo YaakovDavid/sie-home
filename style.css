@@ -58,3 +58,23 @@
   box-shadow: 1px 1px 1px 1px #cecbcb;
 }
 
+
+
+
+@media screen and (max-width: 600px) {
+
+.product-header{
+  height: 50vh;
+}
+
+.header-img{
+  /* width: 100%; */
+  height: 30vh;
+
+}
+.product-img{
+  width: 100%;
+}
+
+
+}
