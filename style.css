@@ -1,11 +1,13 @@
 .product-body{
   width: 100%;
   margin: 0 auto;
+  background-color: rgb(246, 249, 252);
 }
 
 .product-nav {
-  height: 5vh;
-  background-color: rgb(77, 78, 77);
+  height: 40px;
+  /* background-color: rgb(77, 78, 77); */
+  background-color: rgb(54, 50, 51);
 }
 
 
@@ -14,15 +16,19 @@
   text-decoration: none;
   margin: 1vh;
   display: inline-block;
+  font-family: 'Lato', sans-serif;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .product-header{
-  height: 60vh;
+  height: 55vh;
 }
 
 .header-img{
   width: 100%;
   height: 50vh;
+  box-shadow: 1px 1px 2px 2px #eef3f3;
 }
 
 
@@ -30,7 +36,7 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
-  grid-auto-rows: 350px;
+  grid-auto-rows: 520px;
 }
 
 .product{
@@ -38,43 +44,78 @@
   justify-content: center;
   margin: 5px;
   box-shadow: 1px 1px 2px 2px #fbffff;
-  height: 40vh;
+  height: 65vh;
+  background-color: rgb(236, 230, 230);
   width: 100%;
+  /* margin-bottom: 300px; */
+}
+
+span{
+  padding: 20px;
+  display: inline-flex;
+  /* width: 100px; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* height: 150px; */
+  width: 80%;
+  height: 60vh;
 }
 
 .product-img{
-  width: 80%;
+  width: 100%;
+  height: 40vh;
+  /* display: inline-block; */
 }
 
+.product-para{
+  /* background-color: blanchedalmond; */
+  /* display: inline-block; */
+  padding-top: 10px;
+  height: 20vh;
+  width: 100%;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(54, 50, 51);
+}
 
 
 
 
 .product:hover{
-  box-shadow: 0px 0px 0px 0px #cecbcb;
-}
-
-.product-img:hover{
   box-shadow: 1px 1px 1px 1px #cecbcb;
 }
+
+/* .product-img:hover{
+  box-shadow: 1px 1px 1px 1px #cecbcb;
+} */
 
 
 
 
 @media screen and (max-width: 600px) {
 
-.product-header{
-  height: 50vh;
+  .product-nav {
+  height: 70px;
+  /* background-color: rgb(77, 78, 77); */
+  /* background-color: rgb(54, 50, 51); */
 }
 
-.header-img{
-  /* width: 100%; */
-  height: 30vh;
+  .product-header{
+    height: 33vh;
+  }
 
-}
-.product-img{
-  width: 100%;
-}
+  .header-img{
+    /* width: 100%; */
+    height: 30vh;
 
+  }
+  .product{
+    height: 80vh;
+  }
+
+  .product-img{
+    width: 80%;
+    height: 40vh;
+  }
 
 }
