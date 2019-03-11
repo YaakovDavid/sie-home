@@ -1,5 +1,5 @@
 .product-body{
-  width: 100%;
+  max-width: 1450;
   margin: 0 auto;
   background-color: rgb(246, 249, 252);
 }
@@ -48,6 +48,7 @@
   background-color: rgb(236, 230, 230);
   width: 100%;
   /* margin-bottom: 300px; */
+  height: 600px;
 }
 
 span{
